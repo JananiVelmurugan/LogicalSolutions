@@ -1,6 +1,8 @@
 package com.janani.question2;
 
+import java.util.Arrays;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 public class Main {
@@ -16,6 +18,13 @@ public class Main {
 		System.out.println(set);
 		for (char c : set) {
 			if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') {
+				//count++;
+			}
+		}
+		List<Character> vowelsList = Arrays.asList(new Character[] {'a','e','i','o','u'});
+	
+		for (char c : input.toCharArray()) {
+			if ( vowelsList.contains(Character.toLowerCase(c))) {
 				count++;
 			}
 		}
