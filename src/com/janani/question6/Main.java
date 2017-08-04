@@ -1,3 +1,4 @@
+/*Prints first n prime numbers*/
 package com.janani.question6;
 
 public class Main {

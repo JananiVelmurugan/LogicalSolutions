@@ -1,3 +1,4 @@
+/*Check a number is prime or not*/
 package com.janani.question5;
 
 public class Main {

@@ -1,3 +1,4 @@
+/*Count Number of vowels in a String case insensitive*/
 package com.janani.question2;
 
 import java.util.Arrays;
@@ -18,13 +19,13 @@ public class Main {
 		System.out.println(set);
 		for (char c : set) {
 			if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') {
-				//count++;
+				// count++;
 			}
 		}
-		List<Character> vowelsList = Arrays.asList(new Character[] {'a','e','i','o','u'});
-	
+		List<Character> vowelsList = Arrays.asList(new Character[] { 'a', 'e', 'i', 'o', 'u' });
+
 		for (char c : input.toCharArray()) {
-			if ( vowelsList.contains(Character.toLowerCase(c))) {
+			if (vowelsList.contains(Character.toLowerCase(c))) {
 				count++;
 			}
 		}

@@ -1,3 +1,4 @@
+/*Remove Duplicate Elements in an Array*/
 package com.janani.question4;
 
 import java.util.LinkedHashSet;
